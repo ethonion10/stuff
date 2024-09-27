@@ -21,6 +21,7 @@ sleep 1
 
 mkdir -p /tmp/overlay/etc/opt/chrome/policies/managed
 echo '{
+  "RebootAfterUpdate": false
   "DeviceLocalAccounts": true,
   "DeviceAutoUpdateDisabled": true,
   "SecondaryGoogleAccountSigninAllowed": true,
